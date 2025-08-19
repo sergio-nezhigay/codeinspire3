@@ -1,0 +1,377 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_tDPaNk": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_EranBV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4241211.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Заміни старий жорсткий — відчуй різницю з SSD Kingston",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Детальніше",
+            "link": "/products/nakopitel-ssd-25-480gb-kingston-sa400s37480g",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_4bGM9A": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/digitus-4-port-usb-2-0-hub-da-70216.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Незвичний вигляд — звична зручність. Хаб, що кидається в очі",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "Детальніше",
+            "link": "/products/hub-usb-4-port-digitus-usb-20-passivnyy-belyy-da-70216",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_e7xQpV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/94e760164e7485fc671740b7b96d_1.webp",
+            "image_overlay_opacity": 20,
+            "heading": "Живи з природою — фонтан, що працює від сонця. ☀️💧",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "Детальніше",
+            "link": "/products/fontan-na-solnechnoy-bataree-16sm-s-nasadkami",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_N7GGKg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/image_7.webp",
+            "image_overlay_opacity": 20,
+            "heading": "Милий дизайн. Надійне зберігання. Ваші файли завжди під лапкою! 🦊",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Детальніше",
+            "link": "/products/flesh-nakopitel-lisichka-64-gb-usb-2-0-kompaktnaya-fleshka-dlya-smartfona-64gb",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": "scheme-1"
+          }
+        },
+        "slide_ibAVeN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_283.jpg",
+            "image_overlay_opacity": 0,
+            "heading": "Фірмовий звук JBL. Чисто, гучно, стильно",
+            "heading_size": "h0",
+            "subheading": "",
+            "button_label": "Детальніше",
+            "link": "/products/naushniki-jbl-t110-black-jblt110blk",
+            "button_style_secondary": false,
+            "show_text_box": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_EranBV",
+        "slide_4bGM9A",
+        "slide_e7xQpV",
+        "slide_N7GGKg",
+        "slide_ibAVeN"
+      ],
+      "custom_css": [
+        ".slider-mobile-gutter {background-image: linear-gradient(to bottom, #265c94, white);}",
+        ".slideshow {height: 450px;}",
+        "@media (max-width: 768px) {.slideshow {height: 300px; } .banner__heading {font-size: 24px; }}"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 7,
+        "image_behavior": "ambient",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "collection_list_paa7de": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_H7gLQX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ssd"
+          }
+        },
+        "featured_collection_PPH3fn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pamyat"
+          }
+        },
+        "featured_collection_7wTCCW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "karmany-dlja-hdd"
+          }
+        },
+        "featured_collection_6MbzDg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fleshki"
+          }
+        },
+        "featured_collection_Wr3Hwa": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "usb-type-c"
+          }
+        },
+        "featured_collection_hp8zJR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "koncentratory-usb"
+          }
+        },
+        "featured_collection_tJBahA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "keyboards"
+          }
+        },
+        "featured_collection_WFWA7q": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mice"
+          }
+        },
+        "featured_collection_K9xRdg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "light-strings"
+          }
+        },
+        "featured_collection_xtgDBj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hdmi-vga"
+          }
+        },
+        "featured_collection_KTqkJW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "perehonhik_com_usb"
+          }
+        },
+        "featured_collection_qMndLJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "laptop-power-supply"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_H7gLQX",
+        "featured_collection_PPH3fn",
+        "featured_collection_7wTCCW",
+        "featured_collection_6MbzDg",
+        "featured_collection_Wr3Hwa",
+        "featured_collection_hp8zJR",
+        "featured_collection_tJBahA",
+        "featured_collection_WFWA7q",
+        "featured_collection_K9xRdg",
+        "featured_collection_xtgDBj",
+        "featured_collection_KTqkJW",
+        "featured_collection_qMndLJ"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Популярні категорії",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "popular",
+        "products_to_show": 12,
+        "title": "Популярні товари",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 6,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_46zNpJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jjrQjU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/kingston.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wYk4jQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/logitech-logo-png_seeklogo-611389.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nN6qkY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ugreen.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GrpzpU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/282685.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aqTpVe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/samsung.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_r6Dh9R": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/crucial8485.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jjrQjU",
+        "column_wYk4jQ",
+        "column_nN6qkY",
+        "column_GrpzpU",
+        "column_aqTpVe",
+        "column_r6Dh9R"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Популярні бренди",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "174643254122ccb34f": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_W8LLen": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1500
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_W8LLen"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_tDPaNk",
+    "collection_list_paa7de",
+    "featured_collection",
+    "multicolumn_46zNpJ",
+    "174643254122ccb34f"
+  ]
+}

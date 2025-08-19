@@ -1,0 +1,48 @@
+{%- comment -%}
+  This section is responsible for:
+  - Rendering the <recently-viewed-products> custom element, which will display the recently viewed products.
+  - Injecting a script that saves the current product's data to localStorage, so it can be accessed by the custom element.
+  Connected files:
+  - assets/recently-viewed.js: Defines the custom element and renders the product list from localStorage.
+  - templates/product.json: Registers this section for use on product pages.
+{%- endcomment -%}
+<div class="related-products page-width section-{{ section.id }}-padding isolate scroll-trigger animate--slide-in">
+  <recently-viewed-products
+    data-product-title="{{ product.title | escape }}"
+    data-section-title="{{ 'sections.recently_viewed.title' | t }}"
+  ></recently-viewed-products>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function (event) {
+    function setRecentlyViewedProducts() {
+      const productData = {
+        productTitle: '{{ product.title }}',
+        productImg: '{{ product.featured_media | image_url: width: 450 }}',
+        productPrice: '{{ product.price | money }}',
+        productUrl: '{{ product.url }}',
+        productImageAltText: '{{ product.featured_media.alt | escape }}',
+      };
+      const numberOfProducts = 6;
+      let products = [];
+      const localData = localStorage.getItem('recentlyViewedProduct');
+      if (localData) {
+        try {
+          products = JSON.parse(localData) || [];
+        } catch (e) {
+          products = [];
+        }
+      }
+
+      products = products.filter((item) => item.productTitle !== productData.productTitle);
+
+      products.push(productData);
+
+      if (products.length > numberOfProducts) {
+        products = products.slice(products.length - numberOfProducts);
+      }
+      localStorage.setItem('recentlyViewedProduct', JSON.stringify(products));
+    }
+    setRecentlyViewedProducts();
+  });
+</script>
